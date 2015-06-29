@@ -5,13 +5,15 @@
 
 <h2>Movies</h2>
 <div class="row">
-    @for(var i = 0; i < 15; i++)
-    { 
-    <div class="poster posterCard col-md-1">
-        <div class="posterImage">Poster</div>
-        <div class="posterTitle">Movie Title</div>
-        <div class="posterYear">Year</div>
+    <div class="col-md-12">
+        @for (var i = 0; i < 15; i++)
+        {
+            <div class="poster posterCard pull-left">
+                <div class="posterImage">Poster</div>
+                <div class="posterTitle">Movie Title</div>
+                <div class="posterYear">Year</div>
+            </div>
+        }
     </div>
-    }
 </div>
 

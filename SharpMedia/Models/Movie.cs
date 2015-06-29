@@ -13,9 +13,12 @@ namespace SharpMedia.Models
         public DateTime Year { get; set; }
         public int Runtime { get; set; }
         public int MPAARatingID { get; set; }
+        public int posterID { get; set; }
 
 
         public virtual MPAARating MPAARating { get; set; }
+        public virtual Image Poster { get; set; }
         public virtual ICollection<Genre> Genres { get; set; }
+        public virtual ICollection<Image> Backdrops { get; set; }
     }
 }

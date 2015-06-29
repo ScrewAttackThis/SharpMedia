@@ -22,3 +22,19 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.poster
+{
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.posterCard {
+}
+
+.posterImage
+{
+    height: 300px;
+    width: 200px;
+}
